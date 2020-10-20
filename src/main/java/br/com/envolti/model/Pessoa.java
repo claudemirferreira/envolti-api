@@ -42,7 +42,7 @@ public class Pessoa implements Serializable{
 	@Column(nullable = false)
 	private LocalDate dataCadastro;
 
-	@Column(nullable = false)
+	@Column()
 	private LocalDate dataAtualizacao;
 
 	public Integer getId() {
